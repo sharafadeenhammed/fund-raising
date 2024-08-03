@@ -18,14 +18,14 @@ function About() {
 
         <div
           className="z-20 absolute md:block md:left-[20%] md:top-[50%] md:-translate-y-[50%] md:w-[50%] w-100% top-[30%]  ">
-          <p className="md:text-4xl text-xl font-mono font-bold text-slate-300 text-left md:leading-[45px] pl-2">
+          <p className="md:text-4xl text-xl font-semibold text-slate-300 text-left md:leading-[45px] pl-2">
             Join Us in Making a Difference <br />
-            <span className="font-thin md:text-3xl text-lg tracking-normal">Your support can change lives. Help us reach our goal and empower those in need.</span> <br />
-            <span className="font-thin md:text-3xl text-lg tracking-normal">Together, we can create a brighter future.</span>
+            <span className="font-[200] md:text-3xl text-lg tracking-normal">Your support can change lives. Help us reach our goal and empower those in need.</span> <br />
+            <span className="font-[200] md:text-3xl text-lg tracking-normal">Together, we can create a brighter future.</span>
             <br className="md:mb-10 mb-3" />
             <span
               onClick={() => setOpenModal(true)}
-              className="px-5 mt-5 inline-block py-1 tracking-[2px] cursor-pointer bg-orange-500 rounded-[90px] text-white">
+              className="px-5 mt-5 inline-block py-1 tracking-normal cursor-pointer bg-orange-500 rounded-[90px] text-white">
               <span>Donate Now</span>
             </span> <br />
           </p>

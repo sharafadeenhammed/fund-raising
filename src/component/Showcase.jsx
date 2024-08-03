@@ -16,7 +16,7 @@ function Showcase({ image, showBottomTag, showcaseTitle, showcaseTagLine }) {
         <div className="flex-col px-10 items-center md:w-[40%] w-full">
           <p className="text-3xl font-semibild text-white text-left leading-[45px]">Empowering Girls In <br /> Tanzania Through Digital Skills</p>
           <div className="mt-8 w-full flex justify-center">
-            <p className="text-white text-xl font-thin md:w-[90%] w-full">We are dedicated to providing girls in Tanzania with with the tools they need to acquire digital skills and improve theit opportunities for success</p>
+            <p className="text-white text-xl font-[200] md:w-[90%] w-full">We are dedicated to providing girls in Africa with with the tools they need to acquire digital skills and increase their opportunities for success</p>
           </div>
         </div>
       </div>
