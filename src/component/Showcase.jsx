@@ -1,5 +1,5 @@
 
-import image1 from "../assets/img/slide-image-1.png"
+import image1 from "../assets/img/smilling-girls-3.png"
 import donate from "../assets/img/donate.png"
 import cart from "../assets/img/cart.png"
 import dollar from "../assets/img/dollars.png"
@@ -8,15 +8,15 @@ function Showcase({ image, showBottomTag, showcaseTitle, showcaseTagLine }) {
   return (
     // showcase
     <div>
-      <div className="w-screen px-10 md:h-[95vh] md:py-0 py-10 md:flex md:flex-row flex-col items-center justify-between bg-red-950 ">
+      <div className="w-screen md:px-10 md:h-[95vh] md:py-0 py-10 md:flex md:flex-row flex-col items-center justify-between bg-red-950 ">
         <div>
           <img className="object-contain inline-block md:mb-0 mb-10  h-[40%]  border-transparent" src={image1} />
         </div>
 
-        <div className="flex-col items-center md:w-[40%] w-full">
-          <p className="text-3xl font-bold text-white text-left leading-[45px]">Empowering Girls In <br /> Tanzania Through Digital Skills</p>
+        <div className="flex-col px-10 items-center md:w-[40%] w-full">
+          <p className="text-3xl font-semibild text-white text-left leading-[45px]">Empowering Girls In <br /> Tanzania Through Digital Skills</p>
           <div className="mt-8 w-full flex justify-center">
-            <p className="text-white text-lg font-semibold w-[90%]">We are dedicated to providing girls in Tanzania with with the tools they need to acquire digital skills and improve theit opportunities for success</p>
+            <p className="text-white text-xl font-thin md:w-[90%] w-full">We are dedicated to providing girls in Tanzania with with the tools they need to acquire digital skills and improve theit opportunities for success</p>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ function Showcase({ image, showBottomTag, showcaseTitle, showcaseTagLine }) {
               <img className="h-14 mr-2 inline-block" src={dollar} />
               <div className="h-full flex-col justify-between">
                 <p className="text-left text-red-300 text-[10px] font-semibold ">money raised so far</p>
-                <p className=" text-white text-3xl font-extrabold text-left">200k Tsh</p>
+                <p className=" text-white text-3xl font-extrabold text-left">200k USD</p>
               </div>
             </div>
           </div>

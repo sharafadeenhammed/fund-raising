@@ -25,7 +25,7 @@ function About() {
             <br className="md:mb-10 mb-3" />
             <span
               onClick={() => setOpenModal(true)}
-              className="px-5 py-1 cursor-pointer bg-orange-500 rounded-[90px] text-white">
+              className="px-5 mt-5 inline-block py-1 tracking-[2px] cursor-pointer bg-orange-500 rounded-[90px] text-white">
               <span>Donate Now</span>
             </span> <br />
           </p>
